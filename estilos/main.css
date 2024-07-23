@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+  padding: 1em 0px;
+  background-color: #182C61;
+  color: white;
+}
+
+header nav li {
+  display: inline;
+  margin-left: 10px;
+}
+
+header > .container > nav > ul > li > a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 95vw;
+}
