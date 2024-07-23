@@ -30,3 +30,31 @@ header > .container > nav > ul > li > a {
   margin: auto;
   width: 95vw;
 }
+
+.icones img {
+  height: 24px;
+}
+
+.icones li {
+  display: inline;
+}
+
+main {
+  padding: 16px 0px;
+}
+
+main .container h2 {
+  margin-bottom: 10px;
+}
+
+main .container p {
+  margin-bottom: 10px;
+}
+
+main .container {
+  align-items: flex-start;
+}
+
+#loja {
+  margin-right: 16px;
+}
